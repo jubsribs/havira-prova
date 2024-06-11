@@ -1,11 +1,16 @@
 
 :root {
   .maps-body {
-    width: 100%;
-    .leaflet-container{
     display: flex;
-    height: 600px;
+    align-items: flex-start;
+    height: 100%;
     width: 100%;
+    .leaflet-container {
+      height: 900px;
+      width: 110%;
+      border-radius: 8px;
+      background-color: white;
+
     }
   }
 }

@@ -1,8 +1,24 @@
 @import "../../assets/styles/tools.scss";
-
-
 :root {
   .home-body {
    width: 100%;
+   background-color: #ffffff;
+
+   .home-screen{
+    display: flex;
+    flex-direction:row;
+    align-items: space-between;
+    margin-top: 1rem;
+    max-width: 1200px;
+
+    .maps-body{
+      flex: 1;
+      height: 100%;
+    }
+    .user-body{
+      flex: 1;
+      box-sizing: border-box;
+    }
+   }
   }
 }
