@@ -1,12 +1,13 @@
 Desafio Hávira Frontend Developer
 
 
-Tecnologias Utilizadas: 
+ 
 A prova deverá ser realizando utilizando React (qualquer ferramenta de criação), consiste em três requisitos mínimos: um mapa, uma listagem de usuários e um formulário para adicionar novos usuários.
 Utilizaremos a API pública https://jsonplaceholder.typicode.com/users para obter a lista de usuários.
 Deverão ser considerados para listagem e formulário apenas as propriedades: id, name, email, address.city, address.geo.
 A criação e organização do layout da tela será avaliada, portanto, dedique atenção à usabilidade e estética da interface.
 
+Tecnologias Utilizadas:
 Stack: Javascript(JSX) 
 Biblioteca: React 
 Biblioteca de Estilo: SASS 
