@@ -14,8 +14,8 @@ export const Formulario = () => {
 
 
   const handleSubmit = (e) => {
-    toast.success('Mensagem enviada com Sucesso!');
     e.preventDefault();
+    toast.dark('Mensagem enviada com Sucesso!');
     setName('');
     setEmail('');
     setCity('');
