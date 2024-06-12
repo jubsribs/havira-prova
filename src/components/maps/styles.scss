@@ -1,15 +1,17 @@
+@import '../../assets/styles/colors.scss';
 
 :root {
   .maps-body {
     display: flex;
     align-items: flex-start;
     height: 100%;
-    width: 100%;
+    width: 150%;
+
     .leaflet-container {
-      height: 900px;
-      width: 110%;
+      height: 430px;
+      width: 150%;
       border-radius: 8px;
-      background-color: white;
+      background-color: map-get($background, 'screen');
 
     }
   }
